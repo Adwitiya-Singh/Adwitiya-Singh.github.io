@@ -3,9 +3,8 @@
   padding: 0;
 }
 
-
 body {
-  background-color: #151521;
+  background-color: #151517;
   font-family: "Inter", sans-serif;
 }
 
@@ -36,11 +35,13 @@ h6 {
   color: #fff;
   margin: 0;
 }
+
 p {
   font-size: 14px;
   line-height: 26px;
   margin: 0;
 }
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -48,6 +49,7 @@ p {
   box-sizing: border-box;
   margin: 0 auto;
 }
+
 .timelines h2 {
   text-align: center;
   color: #fff;
@@ -55,30 +57,33 @@ p {
   margin-bottom: 40px;
   font-size: 32px;
 }
+
 .d-flex-2 {
   display: flex;
   align-items: center;
 }
 
-.d-flex-2:hover .t-square{
-  background: #ffffff;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
+.d-flex-2:hover .t-square {
+  animation: square-to-circle .5s 1 cubic-bezier(1, .015, .295, 1.225);
+  border-radius: 100% 100% 100% 100%;
+  background: #dec85b;
 }
 
 .timeline-area {
   padding: 80px 0;
 }
+
 .all-timelines {
   position: relative;
 }
+
 .timelines h2 {
   text-align: center;
   color: #fff;
   font-weight: 600;
   margin-bottom: 40px;
 }
+
 .all-timelines::before {
   content: "";
   position: absolute;
@@ -87,15 +92,18 @@ p {
   margin: auto;
   height: 100%;
   width: 2px;
-  background: #efa22f;
+  background: #75c23f;
   top: 20px;
 }
+
 .single-timeline {
   margin-bottom: 22px;
 }
+
 .timeline-blank {
   width: 50%;
 }
+
 .timeline-text {
   width: 50%;
   padding-left: 30px;
@@ -103,47 +111,115 @@ p {
   box-sizing: border-box;
   position: relative;
 }
+
 .timeline-text h6 {
   color: #f0f1f2;
   font-weight: 900;
   display: inline-block;
   font-size: 1rem;
 }
+
 .timeline-text span {
   color: #f0f1f2;
   display: block;
   width: 100%;
 }
-.single-timeline:nth-child(even) .timeline-text span {
+
+
+.timeline-text-title {
+  float: right;
+  width: 50%;
   text-align: right;
+  padding-left: 0;
+  padding-right: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
 }
+
+.single-timeline:nth-child(even) .timeline-text-title{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.timeline-text-title h6 {
+  color: #f0f1f2;
+  font-weight: 900;
+  display: inline-block;
+  font-size: 1rem;
+}
+
 .t-square {
   content: "";
   position: absolute;
   width: 12px;
   height: 12px;
   left: -6px;
-  background: #efa22f;
+  background: #75c23f;
+  animation: circle-to-square .5s 1;
   transition: background 0.3s ease-in-out;
 }
+
+// Timeline entry (even)
+.single-timeline:nth-child(even) .timeline-text span {
+  text-align: right;
+}
+
 .single-timeline:nth-child(even) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
+
 .single-timeline:nth-child(even) .t-square {
   right: -6px;
   left: unset;
 }
+
 .single-timeline:nth-child(even) .timeline-text {
   padding-left: 0;
   padding-right: 30px;
   text-align: right;
 }
 
+// Animation keyframes for the timeline markers
+@keyframes square-to-circle {
+  0% {
+    border-radius: 0 0 0 0;
+    background: #75c23f;
+    transform: rotate(0deg);
+  }
+  100% {
+    border-radius: 100% 100% 100% 100%;
+    background: #dec85b;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circle-to-square {
+  0% {
+    border-radius: 100% 100% 100% 100%;
+    background: #dec85b;
+    transform: rotate(360deg);
+  }
+  100% {
+    border-radius: 0 0 0 0;
+    background: #75c23f;
+    transform: rotate(0deg);
+  }
+}
+
+
 @media all and (max-width: 991px) {
 }
+
 @media all and (max-width: 768px) {
   .all-timelines::before {
     right: unset;
@@ -168,8 +244,10 @@ p {
     text-align: left !important;
   }
 }
+
 @media all and (max-width: 575px) {
 }
+
 @media all and (max-width: 360px) {
   .all-timelines::before {
     top: 32px;
