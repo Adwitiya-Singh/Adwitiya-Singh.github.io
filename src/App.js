@@ -2,8 +2,10 @@ import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faFileAlt, faMapPin } from '@fortawesome/free-solid-svg-icons'
+import React, {useState} from 'react'
 
 function App() {
+    const [iconColor] = useState("#101820FF");
     return (
         <div>
             <div className="titlecard">
@@ -13,24 +15,24 @@ function App() {
                 <img className="center" src="pfp.jpg" alt="Profile Picture"/>
             </div>
             <div className="map-pin">
-                <FontAwesomeIcon icon={faMapPin}color="#101820FF"/>
+                <FontAwesomeIcon icon={faMapPin}color={iconColor}/>
                 &nbsp; Los Angeles, California
             </div>
             <div>
                 <ul className="c-social">
                     <li>
                         <a href="https://www.linkedin.com/in/adwitiya-singh-a31251153/" title="Add me on LinkedIn">
-                            <FontAwesomeIcon icon={faLinkedin} color="#101820FF" />
+                            <FontAwesomeIcon icon={faLinkedin} color={iconColor}/>
                         </a>
                     </li>
                     <li>
                         <a href="resume.pdf" title="Check out my resume">
-                            <FontAwesomeIcon icon={faFileAlt} color="#101820FF"/>
+                            <FontAwesomeIcon icon={faFileAlt} color={iconColor}/>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/Adwitiya-Singh" title="Check out my projects">
-                            <FontAwesomeIcon icon={faGithubSquare} color="#101820FF"/>
+                            <FontAwesomeIcon icon={faGithubSquare} color={iconColor}/>
                         </a>
                     </li>
                 </ul>
@@ -158,6 +160,9 @@ function App() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                copyright © 2021
             </div>
         </div>
     );

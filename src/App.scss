@@ -71,11 +71,20 @@ p {
 
 .titlecard{
   color: $bottom-background;
-  font-size: 5em;
+  font-size: 75px;
   font-family: "Permanent Marker", sans-serif;
-  margin: 1ex;
   text-align: center;
+
 }
+
+@media all and (max-width: 750px) {
+  .titlecard { font-size: 70px;}
+} //mobile devices
+
+@media all and (max-width: 400px) {
+  .titlecard { font-size: 65px;}
+} //smolller mobile devices
+
 
 .about-me{
   color: $bottom-background;
@@ -87,7 +96,7 @@ p {
 }
 
 img.center{
-  border-radius: 15% 15% 15% 15%;
+  border-radius: 100%;
   box-shadow: 1px 1px 10px;
   display: block;
   max-width: 300px;
