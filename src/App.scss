@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Permanent+Marker&display=swap');
 
 body {
-  background-color: #314152;
+  background-color: #F2AA4CFF;
   font-family: "JetBrains Mono", monospace;
 }
 
@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: #F2AA4CFF;
   margin: 0;
 }
 
@@ -45,7 +45,7 @@ p {
 }
 
 .titlecard{
-  color: #ffffff;
+  color: #101820FF;
   font-size: 5em;
   font-family: "Permanent Marker", sans-serif;
   margin: 1ex;
@@ -53,29 +53,36 @@ p {
 }
 
 .about-me{
-  color: #ffffff;
+  color: #101820FF;
   font-size: 1em;
   font-family: "JetBrains Mono", monospace;
   margin: 1ex;
+  padding-bottom: 35px;
   text-align: center;
 }
 
-.c-social {
+img.social {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
+  max-width: 50%;
 }
 
 img.center{
   border-radius: 15% 15% 15% 15%;
   box-shadow: 1px 1px 10px;
   display: block;
-  max-width: 400px;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  -webkit-filter: grayscale(100%);
+  transition: filter .25s ease-in-out;;
 }
 
+img.center:hover{
+  -webkit-filter: grayscale(0%);
+}
 
 .container {
   width: 100%;
@@ -106,6 +113,8 @@ img.center{
 
 .timeline-area {
   padding: 80px 0;
+  background: #101820FF;
+  box-shadow: 1px 1px 50px #101820FF;
 }
 
 .all-timelines {
@@ -114,7 +123,7 @@ img.center{
 
 .timelines h2 {
   text-align: center;
-  color: #fff;
+  color: #F2AA4CFF;
   font-weight: 600;
   margin-bottom: 40px;
 }
@@ -148,14 +157,14 @@ img.center{
 }
 
 .timeline-text h6 {
-  color: #f0f1f2;
+  color: #F2AA4CFF;
   font-weight: 900;
   display: inline-block;
   font-size: 1rem;
 }
 
 .timeline-text span {
-  color: #f0f1f2;
+  color: #F2AA4CFF;
   display: block;
   width: 100%;
 }
@@ -184,7 +193,7 @@ img.center{
 }
 
 .timeline-text-title h6 {
-  color: #f0f1f2;
+  color: #F2AA4CFF;
   font-weight: 900;
   display: inline-block;
   font-size: 1rem;
