@@ -1,4 +1,7 @@
 import './App.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faFileAlt, faMapPin } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
     return (
@@ -7,15 +10,30 @@ function App() {
                 ADWITIYA SINGH
             </div>
             <div>
-                <img class="center" src="pfp.jpg" alt="Profile Picture"/>
+                <img className="center" src="pfp.jpg" alt="Profile Picture"/>
+            </div>
+            <div className="map-pin">
+                <FontAwesomeIcon icon={faMapPin}color="#101820FF"/>
+                &nbsp; Los Angeles, California
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/adwitiya-singh-a31251153/" title="Add me on LinkedIn">
-                    <img class="social" src="linkedin-logo.png" alt="Add me on LinkedIn"/>
-                </a>
-                <a href="https://github.com/Adwitiya-Singh" title="Check out my open source projects">
-                    <img class="social" src="github-logo.png" alt="Check out my open source projects"/>
-                </a>
+                <ul className="c-social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/adwitiya-singh-a31251153/" title="Add me on LinkedIn">
+                            <FontAwesomeIcon icon={faLinkedin} color="#101820FF" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resume.pdf" title="Check out my resume">
+                            <FontAwesomeIcon icon={faFileAlt} color="#101820FF"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Adwitiya-Singh" title="Check out my projects">
+                            <FontAwesomeIcon icon={faGithubSquare} color="#101820FF"/>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div className="about-me">
                 Full Stack Developer at California State University, Northridge & Database Architect at UAW Local 4123

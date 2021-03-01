@@ -3,16 +3,41 @@
   padding: 0;
 }
 
+$top-background: #F2AA4CFF;
+$bottom-background: #101820FF;
+
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Permanent+Marker&display=swap');
 
+
 body {
-  background-color: #F2AA4CFF;
+  background-color: $top-background;
   font-family: "JetBrains Mono", monospace;
 }
 
 ul {
-  list-style: none;
-  margin: 0 !important;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+ul.c-social {
+  text-align: center !important;
+  font-size: 1.625rem;
+  padding-left: 0;
+}
+
+.map-pin {
+  text-align: center !important;
+  font-size: 1rem;
+}
+
+li{
+  display: inline;
+  padding: 1em;
 }
 
 a {
@@ -34,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #F2AA4CFF;
+  color: $bottom-background;
   margin: 0;
 }
 
@@ -45,7 +70,7 @@ p {
 }
 
 .titlecard{
-  color: #101820FF;
+  color: $bottom-background;
   font-size: 5em;
   font-family: "Permanent Marker", sans-serif;
   margin: 1ex;
@@ -53,19 +78,12 @@ p {
 }
 
 .about-me{
-  color: #101820FF;
+  color: $bottom-background;
   font-size: 1em;
   font-family: "JetBrains Mono", monospace;
   margin: 1ex;
   padding-bottom: 35px;
   text-align: center;
-}
-
-img.social {
-  list-style: none;
-  margin-bottom: 0;
-  padding-left: 0;
-  max-width: 50%;
 }
 
 img.center{
@@ -108,13 +126,13 @@ img.center:hover{
 .d-flex-2:hover .t-square {
   animation: square-to-circle .5s 1 cubic-bezier(1, .015, .295, 1.225);
   border-radius: 100% 100% 100% 100%;
-  background: #dec85b;
+  background: $top-background;
 }
 
 .timeline-area {
   padding: 80px 0;
-  background: #101820FF;
-  box-shadow: 1px 1px 50px #101820FF;
+  background: $bottom-background;
+  box-shadow: 1px 1px 50px $bottom-background;
 }
 
 .all-timelines {
@@ -123,7 +141,7 @@ img.center:hover{
 
 .timelines h2 {
   text-align: center;
-  color: #F2AA4CFF;
+  color: $top-background;
   font-weight: 600;
   margin-bottom: 40px;
 }
@@ -157,14 +175,14 @@ img.center:hover{
 }
 
 .timeline-text h6 {
-  color: #F2AA4CFF;
+  color: $top-background;
   font-weight: 900;
   display: inline-block;
   font-size: 1rem;
 }
 
 .timeline-text span {
-  color: #F2AA4CFF;
+  color: $top-background;
   display: block;
   width: 100%;
 }
@@ -193,7 +211,7 @@ img.center:hover{
 }
 
 .timeline-text-title h6 {
-  color: #F2AA4CFF;
+  color: $top-background;
   font-weight: 900;
   display: inline-block;
   font-size: 1rem;
@@ -242,7 +260,7 @@ img.center:hover{
   }
   100% {
     border-radius: 100% 100% 100% 100%;
-    background: #dec85b;
+    background: $top-background;
     transform: rotate(360deg);
   }
 }
@@ -250,7 +268,7 @@ img.center:hover{
 @keyframes circle-to-square {
   0% {
     border-radius: 100% 100% 100% 100%;
-    background: #dec85b;
+    background: $top-background;
     transform: rotate(360deg);
   }
   100% {
