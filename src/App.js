@@ -2,11 +2,21 @@ import './App.scss';
 
 function App() {
     return (
-
+        <div>
+            <div className="titlecard">
+                    ADWITIYA SINGH
+            </div>
+            <div>
+                <img class="center" src="pfp.jpg" alt="Girl in a jacket"/>
+            </div>
+            <div className="about-me">
+                Full Stack Developer at California State University, Northridge & Database Architect at UAW Local 4123
+                Los Angeles, California, United States
+        </div>
         <div className="timeline-area">
             <div className="container">
                 <div className="timelines">
-                    <h2>Timelines</h2>
+                    <h2>Timeline</h2>
                 </div>
                 <div className="all-timelines">
                     <div className="single-timeline d-flex-2">
@@ -123,6 +133,7 @@ function App() {
                 </div>
             </div>
         </div>
+</div>
     );
 }
 

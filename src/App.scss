@@ -3,9 +3,11 @@
   padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Permanent+Marker&display=swap');
+
 body {
-  background-color: #151517;
-  font-family: "Inter", sans-serif;
+  background-color: #314152;
+  font-family: "JetBrains Mono", monospace;
 }
 
 ul {
@@ -41,6 +43,39 @@ p {
   line-height: 26px;
   margin: 0;
 }
+
+.titlecard{
+  color: #ffffff;
+  font-size: 5em;
+  font-family: "Permanent Marker", sans-serif;
+  margin: 1ex;
+  text-align: center;
+}
+
+.about-me{
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "JetBrains Mono", monospace;
+  margin: 1ex;
+  text-align: center;
+}
+
+.c-social {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img.center{
+  border-radius: 15% 15% 15% 15%;
+  box-shadow: 1px 1px 10px;
+  display: block;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
 
 .container {
   width: 100%;
