@@ -19,12 +19,13 @@ ul {
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   padding-inline-start: 40px;
 }
 
 ul.c-social {
+
   text-align: center !important;
   font-size: 1.625rem;
   padding-left: 0;
@@ -77,6 +78,7 @@ p {
   text-align: center;
 
 }
+
 
 // FOR THE FLOATING HEADER
 /*CUSTOM VARIABLES HERE*/
@@ -132,6 +134,11 @@ header {
   .titlecard { font-size: 65px;
     margin: 0.5em;
   }
+  .header{
+    padding: 0;
+    margin: 0;
+  }
+
 } //mobile devices
 
 @media all and (max-width: 400px) {
