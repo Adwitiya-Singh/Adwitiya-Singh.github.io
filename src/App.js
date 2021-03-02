@@ -2,24 +2,30 @@ import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faFileAlt, faMapPin, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import React, {useState} from 'react'
+import React from 'react'
 
-function App() {
-    const [iconColor] = useState("#101820FF");
-    if (
-        "IntersectionObserver" in window &&
-        "IntersectionObserverEntry" in window &&
-        "intersectionRatio" in window.IntersectionObserverEntry.prototype
-    ) {
-        let observer = new IntersectionObserver(entries => {
-            if (entries[0].boundingClientRect.y < 0) {
-                document.body.classList.add("header-not-at-top");
-            } else {
-                document.body.classList.remove("header-not-at-top");
-            }
-        });
-        observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+
+class AppBase extends React.Component {
+    componentDidMount(){
+        if (
+            "IntersectionObserver" in window &&
+            "IntersectionObserverEntry" in window &&
+            "intersectionRatio" in window.IntersectionObserverEntry.prototype
+        ) {
+            let observer = new IntersectionObserver(entries => {
+                if (entries[0].boundingClientRect.y < 0) {
+                    document.body.classList.add("header-not-at-top");
+                } else {
+                    document.body.classList.remove("header-not-at-top");
+                }
+            });
+            observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+        }
     }
+
+    render() {
+    let iconColor = "#101820FF";
+
     return (
         <div>
             <header>
@@ -36,7 +42,7 @@ function App() {
                             </a>
                         </li>
                         <li>
-                                &nbsp; AS &nbsp;
+                            &nbsp; AS &nbsp;
                         </li>
                         <li>
                             <a href="resume.pdf" title="Check out my resume">
@@ -252,6 +258,7 @@ function App() {
             <div id="top-of-site-pixel-anchor"></div>
         </div>
     );
+    }
 }
 
-export default App;
+export default AppBase;
