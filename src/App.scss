@@ -81,7 +81,9 @@ p {
 // FOR THE FLOATING HEADER
 /*CUSTOM VARIABLES HERE*/
 header {
-  display: none;
+  visibility: hidden;
+  max-height: 0;
+  opacity: 0;
   position:relative;
   z-index: 1;
   background: $top-background;
@@ -91,7 +93,10 @@ header {
   font-family: "Permanent Marker", sans-serif;
 
   body.header-not-at-top & {
-    display: block;
+    transition: visibility 0s, opacity 0.5s ease-in;
+    visibility: visible;
+    opacity: 1;
+    max-height: 100px;
     position: fixed;
     top: 0;
     left: 0;
@@ -124,11 +129,15 @@ header {
 
 
 @media all and (max-width: 750px) {
-  .titlecard { font-size: 65px;}
+  .titlecard { font-size: 65px;
+    margin: 0.5em;
+  }
 } //mobile devices
 
 @media all and (max-width: 400px) {
-  .titlecard { font-size: 58px;}
+  .titlecard { font-size: 58px;
+    margin: 0.5em;
+  }
 } //smolller mobile devices
 
 

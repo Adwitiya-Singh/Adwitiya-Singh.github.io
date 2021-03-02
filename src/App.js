@@ -17,7 +17,11 @@ class AppBase extends React.Component {
                     document.body.classList.add("header-not-at-top");
                 } else {
                     document.body.classList.remove("header-not-at-top");
+
                 }
+            }, {
+                root: null,
+                threshold: 1.0
             });
             observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
         }
@@ -28,7 +32,7 @@ class AppBase extends React.Component {
 
     return (
         <div>
-            <header>
+            <header id="header">
                 <div>
                     <ul className="c-social">
                         <li>
