@@ -14,6 +14,11 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
+span.center {
+  display:table;
+  margin:0 auto;
+}
+
 ul {
   display: block;
   list-style-type: disc;
@@ -52,16 +57,6 @@ img {
 
 button:focus {
   outline: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $bottom-background;
-  margin: 0;
 }
 
 p {
@@ -148,13 +143,23 @@ header {
 } //smolller mobile devices
 
 
-.about-me{
+.about-me {
   color: $bottom-background;
   font-size: 1em;
   font-family: "JetBrains Mono", monospace;
   margin: 1ex;
   padding-bottom: 35px;
   text-align: center;
+}
+
+img.circle {
+  border-radius: 100%;
+  box-shadow: 1px 1px 10px;
+  display: block;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 img.center{
