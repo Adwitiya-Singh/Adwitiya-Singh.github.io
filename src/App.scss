@@ -333,6 +333,7 @@ img.center:hover{
   padding-left: 0;
   padding-right: 30px;
   text-align: right;
+
 }
 
 // Animation keyframes for the timeline markers
@@ -376,14 +377,21 @@ a {
     padding-left: 30px;
     padding-right: 0;
     text-align: left;
+    flex-direction: column;
   }
-  .single-timeline:nth-child(2n) .t-square {
+  .single-timeline:nth-child(2n+1) .timeline-text {
+    flex-direction: column-reverse;
+
+  }
+
+    .single-timeline:nth-child(2n) .t-square {
     left: -6px;
     right: unset;
   }
   .timeline-blank {
     display: none;
   }
+
   .timeline-text {
     width: 100%;
   }

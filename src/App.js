@@ -177,8 +177,8 @@ class AppBase extends React.Component {
                                         I do a multitude of things for the UAW. I keep their membership database, written in MySQL, up to date.
                                          <br/> <br/>I also do a lot of data analysis for them using their monthly membership reports, membership surveys and state membership data.
                                         One of my favourite projects was analysing the yearly membership survey. It involved importing the ~10,000 responses, many of which included multiple
-                                        sentence replies, into a data frame using <br/><a href="https://numpy.org/">Pandas</a>. The data was analysed using
-                                        <a href="https://pandas.pydata.org/">Numpy </a> and <a href="https://stanfordnlp.github.io/stanza/">Stanza</a>, the Stanford NLP library. The final goal was to assign each
+                                        sentence replies, into a data frame using <br/><a href="https://numpy.org/">Pandas</a>. The data was analysed
+                                        using <a href="https://pandas.pydata.org/">Numpy </a> and <a href="https://stanfordnlp.github.io/stanza/">Stanza</a>, the Stanford NLP library. The final goal was to assign each
                                         responder with a confidence score which can be later used to make informed decisions when electing new leadership for the organisation, among many others.
 
                                     </span>
