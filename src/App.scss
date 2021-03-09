@@ -222,6 +222,11 @@ img.center:hover{
   margin-bottom: 40px;
 }
 
+.timeline-area li {
+    display: list-item;
+
+}
+
 .all-timelines::before {
   content: "";
   position: absolute;

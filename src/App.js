@@ -110,6 +110,45 @@ class AppBase extends React.Component {
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
                                     <div className="timeline-text-title">
+                                        <h6>August 2019</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+
+                                    <span>
+
+                        <h3>Worked on <a href="https://csun-it.github.io/simile/?path=/story/components-accordion--usage">Simile</a>, our accessibility focused React component library</h3>
+                                         <ul aria-label="Concepts tutored">
+                                            <li>Creating and testing the  <a href="https://csun-it.github.io/simile/?path=/story/components-checklists--usage">Checklist</a> component.</li>
+                                             <li>Stylised the <a href="https://csun-it.github.io/simile/?path=/story/components-tab--default">Tab</a> component.</li>
+                                             <li>Designed responsive scss classes to support screen readers.</li>
+                                             <li>Restructured components on the Simile demo website to migrate from our custom demo to <a href="https://storybook.js.org/">Storybook.js</a>.</li>
+                                        </ul>
+					</span>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
+                                        <h6>August 2019</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <img width="20%" height="20%"
+                                         src="Edison.jpg"
+                                         alt="Southern California Edison Logo"
+                                    />
+                                    <span>
+
+                        <h3>Was awarded the Southern California Edison STEM Scholarship and the CSUN Julian Beck Endowment Award</h3>
+					</span>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
                                         <h6>July 2019</h6>
                                     </div>
                                 </div>
@@ -160,18 +199,16 @@ class AppBase extends React.Component {
                                         <br/>
                                         Championed legislation including:
                                          <ul aria-label="Concepts tutored">
-                                            <br/>
-                                            <li>·Increasing the allotment of funds for campus health services from the CSUN Campus Quality fee. </li>
-                                            <br/><br/>
-                                             <li>· Creation of "<a href="https://www.csun.edu/usu/newheart/">new heart of campus</a>". A sustainable architectural project
+                                            <li>Increasing the allotment of funds for campus health services from the CSUN Campus Quality fee. </li>
+                                             <li>Creation of "<a href="https://www.csun.edu/usu/newheart/">new heart of campus</a>". A sustainable architectural project
                                              designed to replace one of CSUN's largest and most energy-inefficient buildings on campus.</li>
-                                            <br/><br/><br/>
                                         </ul>
+                                        <br/>
                                          I also helped the organisation navigate the political and cultural turmoil caused by CSU Executive Order 1100.
                                         <br/> <br/>
                                         Was appointed to the Dean's search committee to advise, interview, and vote upon candidates for the position of Dean of the College of Engineering and Computer Science.
                                         <br/> <br/>
-                                        I was also appointed to the Campus Quality Fee budget committee where I advocted for the efficient use of student dollars and fought for more funding for tutorial services on campus.
+                                        I was also appointed to the Campus Quality Fee budget committee where I advocated for the efficient use of student dollars and fought for more funding for tutorial services on campus.
                                     </span>
                                     <div className="t-square"></div>
                                 </div>
@@ -191,18 +228,12 @@ class AppBase extends React.Component {
                                         I tutored students on concepts ranging from paradigms of Objected Oriented Programming to shortest path algorithms for Graphs. <br/><br/>
                                         Concepts tutored:
                                         <ul aria-label="Concepts tutored">
-                                            <br/>
-                                            <li>· Algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. </li>
-                                            <br/><br/>
-                                            <li>· Composite data types, such as arrays, records, strings and sets.</li>
-                                            <br/><br/>
-                                            <li>· Definition, implementation and application of data structures, such as stacks, queues, linked lists, trees, hash tables and graphs.</li>
-                                            <br/><br/>
-                                            <li>· Recursion, Abstraction and the use of time complexity expressions in evaluating algorithms.</li>
-                                            <br/><br/>
-                                            <li>· Comparative study of sorting and searching algorithms. </li>
-                                            <br/><br/>
-                                            <li>· Computer architecture, assembly language programming, system software and computer applications. </li>
+                                            <li>Algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. </li>
+                                            <li>Composite data types, such as arrays, records, strings and sets.</li>
+                                            <li>Definition, implementation and application of data structures, such as stacks, queues, linked lists, trees, hash tables and graphs.</li>
+                                            <li>Recursion, Abstraction and the use of time complexity expressions in evaluating algorithms.</li>
+                                            <li>Comparative study of sorting and searching algorithms. </li>
+                                            <li>Computer architecture, assembly language programming, system software and computer applications. </li>
                                         </ul>
 
                                     </span>
