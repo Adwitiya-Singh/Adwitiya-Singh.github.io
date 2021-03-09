@@ -81,7 +81,7 @@ header {
   visibility: hidden;
   max-height: 0;
   opacity: 0;
-  position:relative;
+  position:fixed;
   z-index: 1;
   background: $top-background;
   padding: 1rem;
@@ -286,6 +286,8 @@ img.center:hover{
   position: relative;
 }
 
+
+
 .timeline-text-title h6 {
   color: $top-background;
   font-weight: 900;
@@ -306,7 +308,8 @@ img.center:hover{
 
 // Timeline entry (even)
 .single-timeline:nth-child(even) .timeline-text span {
-  text-align: right;
+  text-align: left;
+  margin-left: 1em;
 }
 
 .single-timeline:nth-child(even) {
@@ -354,6 +357,10 @@ img.center:hover{
   }
 }
 
+a {
+  color: #cc0000;
+}
+
 @media all and (max-width: 768px) {
 
   .all-timelines::before {
@@ -375,12 +382,11 @@ img.center:hover{
   .timeline-text {
     width: 100%;
   }
-  .single-timeline:nth-child(even) .timeline-text span {
-    text-align: left !important;
-  }
+
 }
 @media all and (max-width: 360px) {
   .all-timelines::before {
     top: 32px;
   }
 }
+

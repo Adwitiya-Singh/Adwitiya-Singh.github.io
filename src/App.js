@@ -100,7 +100,6 @@ class AppBase extends React.Component {
                 <div className="about-me">
                     Full Stack Developer at California State University, Northridge & Database Architect at UAW Local
                     4123
-                    Los Angeles, California, United States
                 </div>
                 <div className="timeline-area">
                     <div className="container">
@@ -115,83 +114,9 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
-					<span>
-						Full Stack Developer - CSU, Northridge <br/>
-                        · Worked on the frontend and backend for the content management system for our campus chat bot. Tools used include:<br/>
-                        &nbsp; - RESTful API in python using SQLAlchemy as the ORM hosted on an AWS Lambda for the Backend<br/>
-                        &nbsp; - React.js interface for the Frontend with the API library generated using OpenAPI<br/>
-                        &nbsp; - Dialogflow integration for seamless training of the chatbot<br/>
-                        · Wrote accessible components for our, heavily accessibility focused, in-house React Component library<br/>
+                                    <span>
 
-					</span>
-                                    <div className="t-square"></div>
-                                </div>
-                            </div>
-                            <div className="single-timeline d-flex-2">
-                                <div className="timeline-blank">
-                                    <div className="timeline-text-title">
-                                        <h6>February 2018</h6>
-                                    </div>
-                                </div>
-                                <div className="timeline-text d-flex-2">
-					<span>
-						Instructional Student Assistant - CSU, Northridge<br/>
-						· Reviewed computer science class material specifically with implementation of data structures and algorithms with students
-                        to help them discover the correct answers to problems in Java<br/>
-                        · Conducted tutorial services for students to provide academic support in computer programming
-					</span>
-                                    <div className="t-square"></div>
-                                </div>
-                            </div>
-                            <div className="single-timeline d-flex-2">
-                                <div className="timeline-blank">
-                                    <div className="timeline-text-title">
-                                        <h6>April 2020</h6>
-                                    </div>
-                                </div>
-                                <div className="timeline-text d-flex-2">
-					<span>
-						The successful Hamedan Hardfork, supported by all AYA exchanges, aimed at integrating the dPoW algorithm, improving the security of the AYA blockchain.
-					</span>
-                                    <div className="t-square"></div>
-                                </div>
-                            </div>
-                            <div className="single-timeline d-flex-2">
-                                <div className="timeline-blank">
-                                    <div className="timeline-text-title">
-                                        <h6>July 2020</h6>
-                                    </div>
-                                </div>
-                                <div className="timeline-text d-flex-2">
-					<span>
-						Aryna Exchange goes live, opening more trading opportunities globally
-					</span>
-                                    <div className="t-square"></div>
-                                </div>
-                            </div>
-                            <div className="single-timeline d-flex-2">
-                                <div className="timeline-blank">
-                                    <div className="timeline-text-title">
-                                        <h6>July 2020</h6>
-                                    </div>
-                                </div>
-                                <div className="timeline-text d-flex-2">
-					<span>
-						The enabling of our Coin Exchanger
-					</span>
-                                    <div className="t-square"></div>
-                                </div>
-                            </div>
-
-                            <div className="single-timeline d-flex-2">
-                                <div className="timeline-blank">
-                                    <div className="timeline-text-title">
-                                        <h6>June 2020</h6>
-                                    </div>
-                                </div>
-                                <div className="timeline-text d-flex-2">
-					<span>
-						The implementation of Smart Contracts into the Aryacoin Ecosystem
+                        <h3>Transitioned from tutoring position to a Full Stack intern at CSUN Central IT, Web and Emerging Technology Team</h3>
 					</span>
                                     <div className="t-square"></div>
                                 </div>
@@ -203,14 +128,22 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
-
-                                    <span>
-                                        <h3>Started working at the Database Administrator for UAW 4123</h3>
-
-                                    </span>
                                     <img className="circle" width="150" height="150"
                                          src="UAW.jpg"
+                                         alt="UAW4123 Seal"
                                     />
+                                    <span>
+                                        <h3>Started working at the Database Administrator for UAW 4123</h3>
+                                         <br/>
+                                        I do a multitude of things for the UAW. I keep their membership database, written in MySQL, up to date.
+                                         <br/> <br/>I also do a lot of data analysis for them using their monthly membership reports, membership surveys and state membership data.
+                                        One of my favourite projects was analysing the yearly membership survey. It involved importing the ~10,000 responses, many of which included multiple
+                                        sentence replies, into a data frame using <br/><a href="https://numpy.org/">Pandas</a>. The data was analysed using
+                                        <a href="https://pandas.pydata.org/">Numpy </a> and <a href="https://stanfordnlp.github.io/stanza/">Stanza</a>, the Stanford NLP library. The final goal was to assign each
+                                        responder with a confidence score which can be later used to make informed decisions when electing new leadership for the organisation, among many others.
+
+                                    </span>
+
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -221,10 +154,24 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
-                                    <span>
-                                        <img src="AS.png"/>
+                                    <span >
+                                        <img src="AS.png"  alt="CSUN Associated Students Logo"/>
                                         <h3>Was elected to the Associated Student's Senate as a Senator for the College of Engineering and Computer Science</h3>
-
+                                        <br/>
+                                        Championed legislation including:
+                                         <ul aria-label="Concepts tutored">
+                                            <br/>
+                                            <li>·Increasing the allotment of funds for campus health services from the CSUN Campus Quality fee. </li>
+                                            <br/><br/>
+                                             <li>· Creation of "<a href="https://www.csun.edu/usu/newheart/">new heart of campus</a>". A sustainable architectural project
+                                             designed to replace one of CSUN's largest and most energy-inefficient buildings on campus.</li>
+                                            <br/><br/><br/>
+                                        </ul>
+                                         I also helped the organisation navigate the political and cultural turmoil caused by CSU Executive Order 1100.
+                                        <br/> <br/>
+                                        Was appointed to the Dean's search committee to advise, interview, and vote upon candidates for the position of Dean of the College of Engineering and Computer Science.
+                                        <br/> <br/>
+                                        I was also appointed to the Campus Quality Fee budget committee where I advocted for the efficient use of student dollars and fought for more funding for tutorial services on campus.
                                     </span>
                                     <div className="t-square"></div>
                                 </div>
@@ -237,11 +184,13 @@ class AppBase extends React.Component {
                                 </div>
                                 <div className="timeline-text d-flex-2">
                                     <span>
-                                        <h3>Began tutoring lower level Computer Science courses at the CECS Tutoring Lab at CSUN</h3>
+                                        <img src="CS.png" alt="CSUN CS Logo"/>
+
+                                        <h3>Began tutoring Computer Science courses at the CECS Tutoring Lab at CSUN</h3>
                                         <br/>
                                         I tutored students on concepts ranging from paradigms of Objected Oriented Programming to shortest path algorithms for Graphs. <br/><br/>
                                         Concepts tutored:
-                                        <ul>
+                                        <ul aria-label="Concepts tutored">
                                             <br/>
                                             <li>· Algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. </li>
                                             <br/><br/>
@@ -267,12 +216,13 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
-                                    <img width="150" height="150" src="csun.png"
-                                         alt="Girl in a jacket"/>
+
                                     <span>
 
                         <h3>Started Bachelor's of Science in Computer Science at California State University, Northridge</h3>
 					</span>
+                                    <img width="150" height="150" src="csun.png"
+                                         alt="CSUN Seal"/>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
