@@ -114,7 +114,7 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
-
+                                <div className="d-flex-image-text">
                                     <span>
 
                         <h3>Worked on <a href="https://csun-it.github.io/simile/?path=/story/components-accordion--usage">Simile</a>, our accessibility focused React component library</h3>
@@ -125,6 +125,7 @@ class AppBase extends React.Component {
                                              <li>Restructured components on the Simile demo website to migrate from our custom demo to <a href="https://storybook.js.org/">Storybook.js</a>.</li>
                                         </ul>
 					</span>
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -135,6 +136,8 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
                                     <img width="20%" height="20%"
                                          src="Edison.jpg"
                                          alt="Southern California Edison Logo"
@@ -143,6 +146,7 @@ class AppBase extends React.Component {
 
                         <h3>Was awarded the Southern California Edison STEM Scholarship and the CSUN Julian Beck Endowment Award</h3>
 					</span>
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -153,10 +157,13 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
                                     <span>
 
                         <h3>Transitioned from tutoring position to a Full Stack intern at CSUN Central IT, Web and Emerging Technology Team</h3>
 					</span>
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -167,6 +174,8 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
                                     <img className="circle" width="150" height="150"
                                          src="UAW.jpg"
                                          alt="UAW4123 Seal"
@@ -182,7 +191,7 @@ class AppBase extends React.Component {
                                         responder with a confidence score which can be later used to make informed decisions when electing new leadership for the organisation, among many others.
 
                                     </span>
-
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -193,6 +202,8 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
                                     <span >
                                         <img src="AS.png"  alt="CSUN Associated Students Logo"/>
                                         <h3>Was elected to the Associated Student's Senate as a Senator for the College of Engineering and Computer Science</h3>
@@ -210,6 +221,7 @@ class AppBase extends React.Component {
                                         <br/> <br/>
                                         I was also appointed to the Campus Quality Fee budget committee where I advocated for the efficient use of student dollars and fought for more funding for tutorial services on campus.
                                     </span>
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -220,6 +232,8 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
                                     <span>
                                         <img src="CS.png" alt="CSUN CS Logo"/>
 
@@ -237,6 +251,7 @@ class AppBase extends React.Component {
                                         </ul>
 
                                     </span>
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>
@@ -247,6 +262,8 @@ class AppBase extends React.Component {
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
 
                                     <span>
 
@@ -254,6 +271,7 @@ class AppBase extends React.Component {
 					</span>
                                     <img width="150" height="150" src="csun.png"
                                          alt="CSUN Seal"/>
+                                    </div>
                                     <div className="t-square"></div>
                                 </div>
                             </div>

@@ -200,6 +200,11 @@ img.center:hover{
   align-items: center;
 }
 
+.d-flex-image-text {
+  display: flex;
+  align-items: center;
+}
+
 .d-flex-2:hover .t-square {
   animation: square-to-circle .5s 1 cubic-bezier(1, .015, .295, 1.225);
   border-radius: 100% 100% 100% 100%;
@@ -378,10 +383,14 @@ a {
     padding-left: 30px;
     padding-right: 0;
     text-align: left;
-    flex-direction: column;
   }
-  .single-timeline:nth-child(2n+1) .timeline-text {
+  .single-timeline:nth-child(2n+1) .timeline-text .d-flex-image-text {
     flex-direction: column-reverse;
+
+  }
+
+  .single-timeline:nth-child(2n) .timeline-text .d-flex-image-text {
+    flex-direction: column;
 
   }
 
