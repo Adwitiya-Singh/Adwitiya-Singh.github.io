@@ -41,7 +41,7 @@ ul.c-social {
   font-size: 1rem;
 }
 
-li{
+ul.c-social li{
   display: inline;
   padding: 1em;
 }
@@ -107,8 +107,9 @@ header {
       li{
         padding: .5em;
       }
-      ul{
+      ul.c-social{
         margin: 0;
+        padding-inline-start: 40px;
       }
     }
   }
@@ -224,7 +225,7 @@ img.center:hover{
 
 .timeline-area li {
     display: list-item;
-
+   padding: 0.5em;
 }
 
 .all-timelines::before {
@@ -377,7 +378,7 @@ a {
     padding-left: 30px;
     padding-right: 0;
     text-align: left;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .single-timeline:nth-child(2n+1) .timeline-text {
     flex-direction: column-reverse;
