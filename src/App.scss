@@ -378,7 +378,7 @@ a {
     padding-left: 30px;
     padding-right: 0;
     text-align: left;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .single-timeline:nth-child(2n+1) .timeline-text {
     flex-direction: column-reverse;
@@ -386,6 +386,11 @@ a {
   }
 
     .single-timeline:nth-child(2n) .t-square {
+    left: -6px;
+    right: unset;
+    }
+
+  .single-timeline:nth-child(2n+1) .t-square {
     left: -6px;
     right: unset;
   }
