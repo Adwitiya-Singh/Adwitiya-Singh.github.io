@@ -110,6 +110,43 @@ class AppBase extends React.Component {
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
                                     <div className="timeline-text-title">
+                                        <h6>June 2020</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
+
+                                        <span>
+
+                                            <h3>Completed Senior Design Project, <a href="https://www.youtube.com/watch?v=-x-RTOWMXBo">GUI</a></h3>
+                                            <br/><br/>
+
+                                            We wanted to create something that could help one interact with the public interfaces of day to day lives such as ATM Machines, Museum kiosks without the sanitary issues
+                                            that such interactions could possess in a post COVID-19 world.
+
+                                                                                        <br/><br/>
+                                            GUI, or Gesture User Interface, is a robust unity app that utilises a <a href="https://www.ultraleap.com/product/leap-motion-controller/">Leap Motion Controller</a> to
+                                            track all the fingers on each hand separately, thus giving us ultra precise hand tracking. It furtger has a gesture tracking utility which can track how many fingers a
+                                            a user is holding up and for how long.
+                                            <br/><br/>
+                                            Finally, we created a system that lets one navigate simple interfaces such as informational kiosks, ATM machines, mobile ordering machines metro kiosks etc. using basic gestures such as, making a fist and holding up fingers.
+                                            The navigation is seamless and requires no training at all. Moreover, any present day system can be fitted with a $80 leap motion controller and be GUI ready, so it doesn't require an extensive overhaul to present day architecture!
+                                            <br/><br/>
+                                            This was designed and created with <a href="https://github.com/ChristopherHaklar">Christopher Haklar</a> and  <a href="https://github.com/erazavi">Elijah Razavi</a>.
+
+
+
+
+					</span>
+                                    </div>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+                            <div className="single-timeline d-flex-2">
+
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
                                         <h6>August 2019</h6>
                                     </div>
                                 </div>
