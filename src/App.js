@@ -120,7 +120,7 @@ class AppBase extends React.Component {
                                         <span>
 
                                             <h3>Created <a href="https://www.youtube.com/watch?v=WuvE46WdUSY">Discord ASL Bot</a> for CSUN Accessibility Coding Competition 2021 </h3>
-                                            <br/><br/>
+                                            <br/>
 
                                             The goal of this project was to make online chat platforms, like Discord and Zoom, more accessible for the hard-of-hearing. I was the Team Lead for this project.
                                             <br/><br/>
@@ -158,7 +158,7 @@ class AppBase extends React.Component {
                                         <span>
 
                                             <h3>Completed Senior Design Project, <a href="https://www.youtube.com/watch?v=-x-RTOWMXBo">GUI</a></h3>
-                                            <br/><br/>
+                                            <br/>
 
                                             We wanted to create something that could help one interact with the public interfaces of day to day lives such as ATM Machines, Museum kiosks without the sanitary issues
                                             that such interactions could possess in a post COVID-19 world. I was the lead Unity Developer for this project.
@@ -176,7 +176,7 @@ class AppBase extends React.Component {
 
 
 
-					</span>
+					                    </span>
                                     </div>
                                     <div className="t-square"></div>
                                 </div>

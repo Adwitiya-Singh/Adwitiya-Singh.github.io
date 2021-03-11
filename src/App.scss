@@ -376,6 +376,8 @@ a {
 
 @media all and (max-width: 768px) {
 
+
+
   .all-timelines::before {
     right: unset;
     top: 0;
@@ -385,11 +387,20 @@ a {
     padding-right: 0;
     text-align: left;
   }
+
   .single-timeline:nth-child(2n+1) .timeline-text .d-flex-image-text {
     flex-direction: column-reverse;
 
   }
+  .single-timeline .timeline-text  {
+    flex-direction: column;
 
+  }
+
+  .single-timeline .timeline-text .d-flex-image-text img{
+   padding-bottom: 1rem;
+
+  }
   .single-timeline:nth-child(2n) .timeline-text .d-flex-image-text {
     flex-direction: column;
 
