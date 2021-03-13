@@ -321,6 +321,7 @@ img.center:hover{
 // Timeline entry (even)
 .single-timeline:nth-child(even) .timeline-text span {
   text-align: left;
+  padding-left: 1em;
 }
 
 .single-timeline:nth-child(even) {
@@ -407,13 +408,13 @@ a {
 
     .single-timeline:nth-child(2n) .t-square {
       top: -1.7em;
-    left: -6px;
+    left: -5px;
     right: unset;
     }
 
   .single-timeline:nth-child(2n+1) .t-square {
     top: -1.7em;
-    left: -6px;
+    left: -5px;
     right: unset;
   }
   .timeline-blank{
@@ -433,18 +434,30 @@ a {
     text-align: left;
     margin: 0 auto;
     padding-left: 30px;
-    float: none;
+    float: left;
     padding-right: 0px;
     padding-bottom: 10px;
   }
   .single-timeline:nth-child(even) .timeline-text-title{
-    float: none;
+    float: left;
+  }
+  .single-timeline:nth-child(even) .timeline-text span {
+    padding-left: 0;
   }
 
-}
+  }
 @media all and (max-width: 360px) {
   .all-timelines::before {
     top: 32px;
+  }
+
+  .single-timeline:nth-child(2n) .t-square {
+    top: 0;
+
+  }
+
+  .single-timeline:nth-child(2n+1) .t-square {
+    top: 0;
   }
 }
 

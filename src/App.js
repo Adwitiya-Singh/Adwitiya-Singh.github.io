@@ -145,6 +145,45 @@ class AppBase extends React.Component {
                                     <div className="t-square"></div>
                                 </div>
                             </div>
+
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
+                                        <h6>December 2020</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
+
+                                        <span>
+
+                                            <h3>Designed the HeatMap Generation Service for <a href="https://github.com/allejo/postgame/pull/34">Postgame</a>  </h3>
+                                            <br/>
+
+                                            Postgame is an open-source project <a href="https://allejo.io/">allejo</a>. It is a web application built using Symfony and its purpose is to analyze Bzflag games.
+                                            A little bit of context, <a href="https://www.bzflag.org/">BzFlag</a> is an open-world tank-based battle royale where people are dropped as tanks and play until there is only one player left standing.
+                                            I worked on generating a heatmap from player movement data for this project.
+                                             <br/><br/>
+
+                                            It was an extensive task and required:
+
+                                            <li>Creating a 2d <a href="https://github.com/allejo/postgame/pull/34/files#diff-d6cedd52ccca105ddd6f466a897a6352a99b43d0bd1b9ea1925da5b446f20851">matrix of movement</a> data for each player. This was done by analyzing the movement packets that each player's computer sends to the game server with the player's location.</li>
+
+                                            <li>Transforming movement data into a heatmap matrix. This was done by just linearly mapping the movement data to a smaller 2d matrix.</li>
+
+                                            <li><a href="https://github.com/allejo/postgame/pull/34/files#diff-5fcb0349d87a2f6adab49fbf3c88c0303ad5c887c4458d9d0d350a78000340aa">Generating the heatmap image</a>. I used an SVG library to generate the heatmap image. This has multiple advantages, including, being able to choose whatever gradient we want for the heatmap during run time and being able to alter the size of the heatmap during run time.</li>
+                                             <br/>
+                                        There are hundreds of examples of the heatmaps my service generated on the <a href="https://postgame.allejo.org/replays">Postgame</a> site. Just click on any of the replays and scroll all the way down to see heatmaps by player.
+
+
+
+					</span>
+                                    </div>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
                                     <div className="timeline-text-title">
@@ -177,6 +216,23 @@ class AppBase extends React.Component {
 
 
 					                    </span>
+                                    </div>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
+                                        <h6>February 2020</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+
+                                        <span>
+
+                                            <h3>My try at calculating the <a href="https://github.com/Adwitiya-Singh/InstantInsanity/tree/master">Minimum Obstacle</a> for any given <a href="https://en.wikipedia.org/wiki/Instant_Insanity">Instant Insanity</a> problem. Created as a final project for my Algorithm Design Class with Prof. John Dye.</h3>
+					</span>
                                     </div>
                                     <div className="t-square"></div>
                                 </div>
