@@ -111,7 +111,7 @@ class AppBase extends React.Component {
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
                                     <div className="timeline-text-title">
-                                        <h6>May 2021</h6>
+                                        <h6>June 2021</h6>
                                     </div>
                                 </div>
                                 <div className="timeline-text d-flex-2">
