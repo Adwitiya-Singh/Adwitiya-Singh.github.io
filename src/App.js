@@ -98,8 +98,8 @@ class AppBase extends React.Component {
                     </ul>
                 </div>
                 <div className="about-me">
-                    Full Stack Developer at California State University, Northridge & Database Architect at UAW Local
-                    4123
+                    Accessibility Focused Full Stack Developer at <a href="https://www.workboard.com/">Workboard</a>
+
                 </div>
                 <div className="timeline-area">
                     <div className="container">
@@ -107,6 +107,49 @@ class AppBase extends React.Component {
                             <h2>Timeline</h2>
                         </div>
                         <div className="all-timelines">
+
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
+                                        <h6>May 2021</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+                                        <span>
+
+                                    <h3>Started working at <a href="https://www.workboard.com/">Workboard</a> as an Accessibility Focused Full Stack Developer </h3>
+                                            	</span>
+                                        <div>
+                                            <img className="circle" width="150" height="150" src="Workboard.png"
+                                                 alt="Workboard logo Seal"/>
+                                        </div>
+                                    </div>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
+                                        <h6>May 2021</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+                                        <span>
+
+                                    <h3>Graduated Summa-Cum-Laude from CSUN with a degree in Computer Science and a Minor in Mathematics</h3>
+                                            	</span>
+                                        <div>
+                                        <img className="circle" width="150" height="150" src="csun.png"
+                                             alt="CSUN Seal"/>
+                                    </div>
+                                    </div>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
+
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
                                     <div className="timeline-text-title">
@@ -127,7 +170,7 @@ class AppBase extends React.Component {
                                             The ASL Discord bot is very modular and has a <a href="https://github.com/CECS2021AccessibilityCompetitionTeam2/Discord_Frontend">frontend</a> that is purely written in Javascript,
                                             a backend written in <a href="https://github.com/CECS2021AccessibilityCompetitionTeam2/Signature">python</a> and a web scraper written in <a href="https://github.com/CECS2021AccessibilityCompetitionTeam2/Signature/blob/master/video_cache/getAllClips.sh">shell script</a>.
                                             <br/><br/>
-                                            The bot can be added to any Discord voice/video conversation and it starts listening on command. It uses Google's <a href="https://cloud.google.com/speech-to-text">speech-to-text</a> to create a transcript of the current conversation and hands the flow of control the the backend.
+                                            The bot can be added to any Discord voice/video conversation and it starts listening on command. It uses Google's <a href="https://cloud.google.com/speech-to-text">speech-to-text</a> to create a transcript of the current conversation and hands the flow of control the backend.
                                             <br/><br/>
                                             The backend then uses Stanford's NLP Library, <a href="https://stanfordnlp.github.io/stanza/">Stanza</a>, to convert the English Transcript to ASL grammar and creates a ASL translation for each sentence.
                                              <br/><br/>
@@ -135,7 +178,7 @@ class AppBase extends React.Component {
                                             <br/><br/>
                                             We decided to make this a modular project as this increases the reusability of the service many fold. The translation-backend being separate from the Discord bot lets us use the same backend for a Zoom ASL bot as well!
                                             <br/><br/>
-                                            This was designed and created with <a href="https://github.com/ChristopherHaklar">Christopher</a>, <a href="https://github.com/JaimeGG64">Jaime</a> and <a href="https://github.com/slodoco">Kyle</a>.
+                                            This was designed and created with <a href="https://github.com/ChristopherHaklar">Christopher Haklar</a>, <a href="https://github.com/JaimeGG64">Jaime Garcia</a> and, <a href="https://github.com/slodoco">Kyle Chan</a>.
 
 
 
@@ -157,12 +200,13 @@ class AppBase extends React.Component {
 
 
                                         <span>
-
+                                            <img src="postgame.svg" alt="postgame logo"/>
                                             <h3>Designed the HeatMap Generation Service for <a href="https://github.com/allejo/postgame/pull/34">Postgame</a>  </h3>
                                             <br/>
 
-                                            Postgame is an open-source project <a href="https://allejo.io/">allejo</a>. It is a web application built using Symfony and its purpose is to analyze Bzflag games.
-                                            A little bit of context, <a href="https://www.bzflag.org/">BzFlag</a> is an open-world tank-based battle royale where people are dropped as tanks and play until there is only one player left standing.
+                                            Postgame is an open-source project by <a href="https://allejo.io/">allejo</a>. It is a web application built using Symfony and its purpose is to analyze BZFlag games.
+                                             <br/><br/>
+                                            A little bit of context, <a href="https://www.bzflag.org/">BZFlag</a> is an open-world tank-based, and team-based, capture the flag game.
                                             I worked on generating a heatmap from player movement data for this project.
                                              <br/><br/>
 
@@ -174,7 +218,7 @@ class AppBase extends React.Component {
 
                                             <li><a href="https://github.com/allejo/postgame/pull/34/files#diff-5fcb0349d87a2f6adab49fbf3c88c0303ad5c887c4458d9d0d350a78000340aa">Generating the heatmap image</a>. I used an SVG library to generate the heatmap image. This has multiple advantages, including, being able to choose whatever gradient we want for the heatmap during run time and being able to alter the size of the heatmap during run time.</li>
                                              <br/>
-                                        There are hundreds of examples of the heatmaps my service generated on the <a href="https://postgame.allejo.org/replays">Postgame</a> site. Just click on any of the replays and scroll all the way down to see heatmaps by player.
+                                        There are thousands of examples of the heatmaps my service generated on the <a href="https://postgame.allejo.org/replays">Postgame</a> site. Just click on any of the replays and scroll all the way down to see heatmaps by player.
 
 
 
@@ -184,42 +228,7 @@ class AppBase extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="single-timeline d-flex-2">
-                                <div className="timeline-blank">
-                                    <div className="timeline-text-title">
-                                        <h6>June 2020</h6>
-                                    </div>
-                                </div>
-                                <div className="timeline-text d-flex-2">
-                                    <div className="d-flex-image-text">
 
-
-                                        <span>
-
-                                            <h3>Completed Senior Design Project, <a href="https://www.youtube.com/watch?v=-x-RTOWMXBo">GUI</a></h3>
-                                            <br/>
-
-                                            We wanted to create something that could help one interact with the public interfaces of day to day lives such as ATM Machines, Museum kiosks without the sanitary issues
-                                            that such interactions could possess in a post COVID-19 world. I was the lead Unity Developer for this project.
-
-                                                                                        <br/><br/>
-                                            GUI, or Gesture User Interface, is a robust unity app that utilises a <a href="https://www.ultraleap.com/product/leap-motion-controller/">Leap Motion Controller</a> to
-                                            track all the fingers on each hand separately, thus giving us ultra precise hand tracking. It further has a gesture tracking utility which can track how many fingers
-                                            a user is holding up and for how long.
-                                            <br/><br/>
-                                            Finally, we created a system that lets one navigate simple interfaces such as informational kiosks, ATM machines, mobile ordering machines metro kiosks etc. using basic gestures such as, making a fist and holding up fingers.
-                                            The navigation is seamless and requires no training at all. Moreover, any present day system can be fitted with a $80 leap motion controller and be GUI ready, so it doesn't require an extensive overhaul to present day architecture!
-                                            <br/><br/>
-                                            This was designed and created with <a href="https://github.com/ChristopherHaklar">Christopher Haklar</a> and  <a href="https://github.com/erazavi">Elijah Razavi</a>.
-
-
-
-
-					                    </span>
-                                    </div>
-                                    <div className="t-square"></div>
-                                </div>
-                            </div>
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
                                     <div className="timeline-text-title">
@@ -269,14 +278,15 @@ class AppBase extends React.Component {
                                 <div className="timeline-text d-flex-2">
                                     <div className="d-flex-image-text">
 
-                                    <img width="20%" height="20%"
-                                         src="Edison.jpg"
-                                         alt="Southern California Edison Logo"
-                                    />
+
                                     <span>
 
                         <h3>Awarded the Southern California Edison STEM Scholarship and the CSUN Julian Beck Endowment Award</h3>
 					</span>
+                                        <img width="20%" height="20%"
+                                             src="Edison.jpg"
+                                             alt="Southern California Edison Logo"
+                                        />
                                     </div>
                                     <div className="t-square"></div>
                                 </div>
@@ -307,10 +317,7 @@ class AppBase extends React.Component {
                                 <div className="timeline-text d-flex-2">
                                     <div className="d-flex-image-text">
 
-                                    <img className="circle" width="150" height="150"
-                                         src="UAW.jpg"
-                                         alt="UAW4123 Seal"
-                                    />
+
                                     <span>
                                         <h3>Started working at the Database Administrator for UAW 4123</h3>
                                          <br/>
@@ -322,6 +329,10 @@ class AppBase extends React.Component {
                                         responder with a confidence score which can be later used to make informed decisions when electing new leadership for the organisation, among many others.
 
                                     </span>
+                                        <img className="circle" width="150" height="150"
+                                             src="UAW.jpg"
+                                             alt="UAW4123 Seal"
+                                        />
                                     </div>
                                     <div className="t-square"></div>
                                 </div>
