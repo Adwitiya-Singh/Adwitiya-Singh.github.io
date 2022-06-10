@@ -171,13 +171,14 @@ class AppBase extends React.Component {
                                 </div>
                                 <div className="timeline-text d-flex-2">
                                     <div className="d-flex-image-text">
+                                        <img className="circle" width="150" height="150" src="csun.png"
+                                             alt="CSUN Seal"/>
                                         <span>
 
                                     <h3>Graduated Summa-Cum-Laude from CSUN with a degree in Computer Science and a Minor in Mathematics</h3>
                                             	</span>
                                         <div>
-                                        <img className="circle" width="150" height="150" src="csun.png"
-                                             alt="CSUN Seal"/>
+
                                     </div>
                                     </div>
                                     <div className="t-square"></div>
@@ -317,7 +318,7 @@ class AppBase extends React.Component {
 
                         <h3>Awarded the Southern California Edison STEM Scholarship and the CSUN Julian Beck Endowment Award</h3>
 					</span>
-                                        <img width="20%" height="20%"
+                                        <img className="leftmargin" width="20%" height="20%"
                                              src="Edison.jpg"
                                              alt="Southern California Edison Logo"
                                         />
@@ -439,14 +440,14 @@ class AppBase extends React.Component {
                                 </div>
                                 <div className="timeline-text d-flex-2">
                                     <div className="d-flex-image-text">
-
+                                        <img width="150" height="150" src="csun.png"
+                                             alt="CSUN Seal"/>
 
                                     <span>
 
                         <h3>Started Bachelor's of Science in Computer Science at California State University, Northridge</h3>
 					</span>
-                                    <img width="150" height="150" src="csun.png"
-                                         alt="CSUN Seal"/>
+
                                     </div>
                                     <div className="t-square"></div>
                                 </div>

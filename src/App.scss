@@ -176,6 +176,10 @@ img.center{
   transition: filter .25s ease-in-out;
 }
 
+.leftmargin{
+  margin-left: 5px;
+}
+
 img.center:hover{
   -webkit-filter: grayscale(0%);
 }
