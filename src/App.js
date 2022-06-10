@@ -119,12 +119,28 @@ class AppBase extends React.Component {
                                         <span>
 
                                     <h3>Started working at <a href="https://www.workboard.com/">Workboard</a> as an Accessibility Focused Full Stack Developer </h3>
+                                              <span>
+                                         <br/>
+                                        I was the first employee on WorkBoard's internal component library team so my duties ranged across a wide variety of tasks. One of the very first things I did was
+                                        to create a deployment pipeline for the library, which was distributed an a npm package. I wrote multiple CI/CD pipelines using Github Actions to build and publish a new version of the package
+                                          on the GitHub NPM registry on a merge to the main branch.
+                                          <br/> <br/> I also wrote pipelines to build and deploy our storybook to a S3 bucket on AWS, which was then accessible through a URL. We published two separate Storybooks,
+                                          a <a href="https://wobo-storybook.s3.amazonaws.com/development/index.html?path=/docs/wobo-ui-autocomplete2--controlled-value">development version</a> and
+                                          a <a href="https://wobo-storybook.s3.amazonaws.com/latest/index.html?path=/docs/wobo-ui-progress-bar--playground">stable version</a>. The develop storybook was deployed automatically on
+                                          merge to the development branch while the stable was deployed on a merge to main. I also wrote Github Actions to release beta version of wobo-ui to the Github NPM registry so they could be regression tested
+                                          in test environments before we made a stable release and upgraded the production WorkBoard website to the newest version of wobo-ui.
+                                        <br/> <br/>  Also contributed towards building a frontend community best practices within the organisation. Wrote extensive documentation towards contributing to wobo-ui, defining, documenting, and detailing
+                                          our internal coding, styling, linting, testing, typing, and branching standards to make it easier for external devs to contribute components to the library.
+
+                                    </span>
                                             	</span>
                                         <div>
                                             <img className="circle" width="150" height="150" src="Workboard.png"
                                                  alt="Workboard logo Seal"/>
                                         </div>
+
                                     </div>
+
                                     <div className="t-square"></div>
                                 </div>
                             </div>
