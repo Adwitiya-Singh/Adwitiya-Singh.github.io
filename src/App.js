@@ -127,16 +127,16 @@ class AppBase extends React.Component {
                                     <h3>Started working at <a target="_blank"  rel="noreferrer" href="https://www.workboard.com/">WorkBoard</a> as an Accessibility Focused Full Stack Developer on the wobo-ui team</h3>
                                               <span>
                                          <br/>
-                                        	I spearheaded WorkBoards internal component library team, as founder my duties ranged across a wide variety of tasks.
-                                                  The first task I undertook was creating a deployment pipeline for the library, which was distributed as a npm package.
-                                                  I then wrote multiple CI/CD pipelines using Github Actions to build and publish new versions of the package on the GitHub NPM registry on a merge to the main branch.
+                                        	I spearheaded WorkBoards internal component library team, as founder, my duties ranged across a wide variety of tasks.
+                                                  The first task I undertook was creating a deployment pipeline for the library, which was distributed as an npm package.
+                                                  I then wrote multiple CI/CD pipelines using Github Actions to build and publish new versions of the package on the GitHub npm registry on a merge to the main branch.
                                           <br/> <br/> I also wrote the pipelines that to build and deploy our Storybook to an S3 bucket on AWS, which was then accessible through a URL. We published two separate Storybooks,
                                           a <a target="_blank"  rel="noreferrer" href="https://wobo-storybook.s3.amazonaws.com/development/index.html?path=/docs/wobo-ui-autocomplete2--controlled-value">development version</a> and
-                                          a <a target="_blank"  rel="noreferrer" href="https://wobo-storybook.s3.amazonaws.com/latest/index.html?path=/docs/wobo-ui-progress-bar--playground">stable version</a>. The develop storybook was deployed automatically on
-                                          merge to the development branch, while the stable version was deployed on a merge to main. I also wrote Github Actions to release beta versions of wobo-ui to the Github NPM registry so they could be regression tested
+                                          a <a target="_blank"  rel="noreferrer" href="https://wobo-storybook.s3.amazonaws.com/latest/index.html?path=/docs/wobo-ui-progress-bar--playground">stable version</a>. The development storybook was deployed automatically on
+                                          merge to the development branch, while the stable version was deployed on a merge to main. I also wrote a Github Actions workflow to release beta versions of wobo-ui to the Github npm registry so they could be regression tested
                                           in QA environments before we made a stable release and upgraded the production WorkBoard website to the newest version of wobo-ui.
                                                    <br/> <br/> 	On the components side, we collaborated with designers, product owners and developers to break complex UI mockups into atomic components.
-                                                  Then, we scoped out each component on a scoping template we developed in house, detailing the props, state, and behaviors we wanted to implement.
+                                                  Then, we scoped out each component on a scoping template we developed in-house, detailing the props, state, and behaviors we wanted to implement.
                                                   This led into the development phase, where we wrote the components in a generic, responsive, and reusable manner with an extra emphasis and care taken with being a11y compliant.
                                                   All the development and testing was done in 4 week sprints, broken into 3 weeks of development and 1 week of internal regression testing.
                                         <br/> <br/>  I also contributed towards building a front-end community “best practices” within the organization.
@@ -145,15 +145,15 @@ class AppBase extends React.Component {
                                         <br/> <br/> I defined Changelog standards for the library and wrote Github Actions to enforce them by looking for the CHANGELOG.md file in the diff for every PR and failing a required status check
                                                   until the file is found. Also adopted semantic versioning and started making maintaining
                                                   a <a target="_blank"  rel="noreferrer" href="https://wobo-storybook.s3.amazonaws.com/development/index.html?path=/docs/documentation-change-log--page">public changelog on the Storybook</a>.
-                                                  <br/> <br/> I contributed towards testing of the components by writing unit tests to verify the UI and functioning of the atomic components matched the guidelines in our design system.
-                                                  I also wrote cypress tests to test the components in a larger environment - this was done by deploying beta versions of wobo-ui on dev environments and running the cypress test suite on them using an azure pipeline.
+                                                  <br/> <br/> I contributed towards testing of the components by writing unit tests to verify the UI and functionality of the atomic components matched the guidelines in our design system.
+                                                  I also wrote cypress tests to test the components in a larger environment - this was done by deploying beta versions of wobo-ui on dev environments and running the cypress test suite on them using an Azure pipeline.
 
                                         <br/> <br/> On the backend side, I worked on designing and developing the data models for our <a target="_blank"  rel="noreferrer" href="https://www.workboard.com/workboard-in-the-news/20220412-strategy-product-launch.php">in-house canvas based product</a> for real-time
                                                       collaboration between team-members. We used a graph-based database, neo4j, to support quick and concurrent transactions and allow up to 20 live cursors on the canvas.
                                     </span>
                                             	</span>
                                         <div>
-                                            <img className="circle" width="150" height="150" src="Workboard.png"
+                                            <img className="circle no-padding" width="150" height="150" src="Workboard.png"
                                                  alt="Workboard logo Seal"/>
                                         </div>
 
@@ -171,7 +171,7 @@ class AppBase extends React.Component {
                                 </div>
                                 <div className="timeline-text d-flex-2">
                                     <div className="d-flex-image-text">
-                                        <img className="circle" width="150" height="150" src="csun.png"
+                                        <img className="circle no-padding" width="150" height="150" src="csun.png"
                                              alt="CSUN Seal"/>
                                         <span>
 
@@ -235,7 +235,7 @@ class AppBase extends React.Component {
 
 
                                         <span>
-                                            <img src="postgame.svg" alt="postgame logo"/>
+                                            <img  src="postgame.svg" alt="postgame logo"/>
                                             <h3>Designed the HeatMap Generation Service for <a target="_blank"  rel="noreferrer" href="https://github.com/allejo/postgame/pull/34">Postgame</a>  </h3>
                                             <br/>
 
@@ -364,7 +364,7 @@ class AppBase extends React.Component {
                                         responder with a confidence score which can be later used to make informed decisions when electing new leadership for the organisation, among many others.
 
                                     </span>
-                                        <img className="circle" width="150" height="150"
+                                        <img className="circle no-padding" width="150" height="150"
                                              src="UAW.jpg"
                                              alt="UAW4123 Seal"
                                         />
