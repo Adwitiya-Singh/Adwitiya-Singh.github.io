@@ -118,20 +118,30 @@ class AppBase extends React.Component {
                                     <div className="d-flex-image-text">
                                         <span>
 
-                                    <h3>Started working at <a href="https://www.workboard.com/">Workboard</a> as an Accessibility Focused Full Stack Developer </h3>
+                                    <h3>Started working at <a href="https://www.workboard.com/">WorkBoard</a> as an Accessibility Focused Full Stack Developer on the wobo-ui team</h3>
                                               <span>
                                          <br/>
-                                        I was the first employee on WorkBoard's internal component library team so my duties ranged across a wide variety of tasks. One of the very first things I did was
-                                        to create a deployment pipeline for the library, which was distributed an a npm package. I wrote multiple CI/CD pipelines using Github Actions to build and publish a new version of the package
+                                        I was the first employee on WorkBoard's internal component library team, so, my duties ranged across a wide variety of tasks. One of the very first tasks I undertook was
+                                        creating a deployment pipeline for the library, which was distributed as a npm package. I wrote multiple CI/CD pipelines using Github Actions to build and publish a new version of the package
                                           on the GitHub NPM registry on a merge to the main branch.
-                                          <br/> <br/> I also wrote pipelines to build and deploy our storybook to a S3 bucket on AWS, which was then accessible through a URL. We published two separate Storybooks,
+                                          <br/> <br/> I also wrote pipelines to build and deploy our Storybook to a S3 bucket on AWS, which was then accessible through a URL. We published two separate Storybooks,
                                           a <a href="https://wobo-storybook.s3.amazonaws.com/development/index.html?path=/docs/wobo-ui-autocomplete2--controlled-value">development version</a> and
                                           a <a href="https://wobo-storybook.s3.amazonaws.com/latest/index.html?path=/docs/wobo-ui-progress-bar--playground">stable version</a>. The develop storybook was deployed automatically on
                                           merge to the development branch while the stable was deployed on a merge to main. I also wrote Github Actions to release beta version of wobo-ui to the Github NPM registry so they could be regression tested
                                           in test environments before we made a stable release and upgraded the production WorkBoard website to the newest version of wobo-ui.
+                                                   <br/> <br/> On the components side, we collaborated with designers, product owners and developers to break complex UI mockups into atomic components. Then we scoped out each component on
+                                                  a scoping template we developed, detailing the props, state, and behaviors we want to implement. This led into the development phase where we wrote the components in a generic, responsive, and reusable manner
+                                                  with an extra emphasis on being a11y compliant. All the development and testing was done in 4 week sprints broken into 3 weeks of development and 1 week of internal regression testing.
                                         <br/> <br/>  Also contributed towards building a frontend community best practices within the organisation. Wrote extensive documentation towards contributing to wobo-ui, defining, documenting, and detailing
                                           our internal coding, styling, linting, testing, typing, and branching standards to make it easier for external devs to contribute components to the library.
-
+                                        <br/> <br/> Defined Changelog standards for the library and wrote Github Actions to enforce them by looking for the CHANGELOG.md file in the diff for every PR and failing a required status check
+                                                  until the file is found. Also adopted semantic versioning and started making maintaining
+                                                  a <a href="https://wobo-storybook.s3.amazonaws.com/development/index.html?path=/docs/documentation-change-log--page">public changelog on the Storybook</a>.
+                                                  <br/> <br/> Contributed towards testing of the components in the form of writing unit tests to verify the UI and functioning of the atomic components matched the guidelines in our design system.
+                                                  Also wrote cypress tests to test the components in a larger environment - this was done by deploying beta versions of wobo-ui on dev environments and running the cypress test suite on them using a azure pipeline.
+                                        <br/> <br/> On the backend side, I worked on designing and developing the data models for our
+                                                  <a href="https://www.workboard.com/workboard-in-the-news/20220412-strategy-product-launch.php">in-house canvas based product</a> for real-time
+                                                      collaboration between team-members. We used a graph-based database, neo4j, to support quick and concurrent transaction and support up to 20 live cursors on the canvas.
                                     </span>
                                             	</span>
                                         <div>
