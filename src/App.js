@@ -127,7 +127,7 @@ class AppBase extends React.Component {
                                     <h3>Started working at <a target="_blank"  rel="noreferrer" href="https://www.workboard.com/">WorkBoard</a> as an Accessibility Focused Full Stack Developer on the wobo-ui team</h3>
                                               <span>
                                          <br/>
-                                        	I spearheaded WorkBoards internal component library team, as founder, my duties ranged across a wide variety of tasks.
+                                        	I spearheaded WorkBoard's internal component library team, as founder, my duties ranged across a wide variety of tasks.
                                                   The first task I undertook was creating a deployment pipeline for the library, which was distributed as an npm package.
                                                   I then wrote multiple CI/CD pipelines using Github Actions to build and publish new versions of the package on the GitHub npm registry on a merge to the main branch.
                                           <br/> <br/> I also wrote the pipelines that to build and deploy our Storybook to an S3 bucket on AWS, which was then accessible through a URL. We published two separate Storybooks,
