@@ -36,8 +36,8 @@ class AppBase extends React.Component {
                     <div>
                         <ul className="c-social">
                             <li>
-                                <a target="_blank"  rel="noreferrer" href="https://github.com/wobo-karans" title="Check out my work projects">
-                                    <FontAwesomeIcon icon={faGithubSquare} color={iconColor}/>
+                                <a target="_blank"  rel="noreferrer" href="mailto:adwitiya.karan@gmail.com" title="Email me">
+                                    <FontAwesomeIcon icon={faEnvelope} color={iconColor}/>
                                 </a>
                             </li>
                             <li>
@@ -77,11 +77,6 @@ class AppBase extends React.Component {
                 <div>
                     <ul className="c-social">
                         <li>
-                            <a target="_blank"  rel="noreferrer" href="https://github.com/wobo-karans" title="Check out my projects">
-                                <FontAwesomeIcon icon={faGithubSquare} color={iconColor}/>
-                            </a>
-                        </li>
-                        <li>
                             <a target="_blank"  rel="noreferrer" href="mailto:adwitiya.karan@gmail.com" title="Email me">
                                 <FontAwesomeIcon icon={faEnvelope} color={iconColor}/>
                             </a>
@@ -104,7 +99,7 @@ class AppBase extends React.Component {
                     </ul>
                 </div>
                 <div className="about-me">
-                    Accessibility Focused Full Stack Developer at <a target="_blank"  rel="noreferrer" href="https://www.workboard.com/">Workboard</a>
+                    SDE II at <a target="_blank"  rel="noreferrer" href="https://www.amazon.com/">Amazon</a>
 
                 </div>
                 <div className="timeline-area">
@@ -113,6 +108,28 @@ class AppBase extends React.Component {
                             <h2>Timeline</h2>
                         </div>
                         <div className="all-timelines">
+
+                            <div className="single-timeline d-flex-2">
+                                <div className="timeline-blank">
+                                    <div className="timeline-text-title">
+                                        <h6>May 2021</h6>
+                                    </div>
+                                </div>
+                                <div className="timeline-text d-flex-2">
+                                    <div className="d-flex-image-text">
+                                        <img width="150" height="150" src="amazon.png"
+                                             alt="CSUN Seal" />
+                                        <span>
+
+                                            <h3>Started working at the Customer Engagement Technology team at Amazon as an SDE II</h3>
+                                            	</span>
+                                        <div>
+
+                                        </div>
+                                    </div>
+                                    <div className="t-square"></div>
+                                </div>
+                            </div>
 
                             <div className="single-timeline d-flex-2">
                                 <div className="timeline-blank">
@@ -171,7 +188,7 @@ class AppBase extends React.Component {
                                 </div>
                                 <div className="timeline-text d-flex-2">
                                     <div className="d-flex-image-text">
-                                        <img className="circle no-padding" width="150" height="150" src="csun.png"
+                                        <img className="circle no-padding" style={{"margin-top": "50px"}} width="150" height="150" src="csun.png"
                                              alt="CSUN Seal"/>
                                         <span>
 
@@ -197,7 +214,7 @@ class AppBase extends React.Component {
 
                                         <span>
 
-                                            <h3>Created <a target="_blank"  rel="noreferrer" target="_blank"href="https://www.youtube.com/watch?v=WuvE46WdUSY">Discord ASL Bot</a> for CSUN Accessibility Coding Competition 2021 </h3>
+                                            <h3>Created <a rel="noreferrer" target="_blank"href="https://www.youtube.com/watch?v=WuvE46WdUSY">Discord ASL Bot</a> for CSUN Accessibility Coding Competition 2021 </h3>
                                             <br/>
 
                                             The goal of this project was to make online chat platforms, like Discord and Zoom, more accessible for the hard-of-hearing. I was the Team Lead for this project.

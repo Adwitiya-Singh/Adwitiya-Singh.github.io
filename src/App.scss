@@ -291,7 +291,7 @@ img.center:hover{
   position: relative;
 }
 
-.single-timeline:nth-child(even) .timeline-text-title{
+.single-timeline:nth-child(odd) .timeline-text-title{
   float: left;
   width: 50%;
   text-align: left;
@@ -323,24 +323,24 @@ img.center:hover{
 }
 
 // Timeline entry (even)
-.single-timeline:nth-child(even) .timeline-text span {
+.single-timeline:nth-child(odd) .timeline-text span {
   text-align: left;
   padding-left: 1em;
 }
 
-.single-timeline:nth-child(even) {
+.single-timeline:nth-child(odd) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 
-.single-timeline:nth-child(even) .t-square {
+.single-timeline:nth-child(odd) .t-square {
   right: -6px;
   left: unset;
 }
 
-.single-timeline:nth-child(even) .timeline-text {
+.single-timeline:nth-child(odd) .timeline-text {
   padding-left: 0;
   padding-right: 30px;
   text-align: right;
@@ -385,13 +385,13 @@ a {
     right: unset;
     top: 0;
   }
-  .single-timeline:nth-child(2n) .timeline-text {
+  .single-timeline:nth-child(2n+1) .timeline-text {
     padding-left: 30px;
     padding-right: 0;
     text-align: left;
   }
 
-  .single-timeline:nth-child(2n+1) .timeline-text .d-flex-image-text {
+  .single-timeline:nth-child(2n) .timeline-text .d-flex-image-text {
     flex-direction: column-reverse;
 
   }
@@ -405,18 +405,18 @@ a {
 
 
   }
-  .single-timeline:nth-child(2n) .timeline-text .d-flex-image-text {
+  .single-timeline:nth-child(2n+1) .timeline-text .d-flex-image-text {
     flex-direction: column;
 
   }
 
-    .single-timeline:nth-child(2n) .t-square {
+    .single-timeline:nth-child(2n+1) .t-square {
       top: -1.7em;
     left: -5px;
     right: unset;
     }
 
-  .single-timeline:nth-child(2n+1) .t-square {
+  .single-timeline:nth-child(2n) .t-square {
     top: -1.7em;
     left: -5px;
     right: unset;
@@ -427,7 +427,7 @@ a {
   .single-timeline {
    flex-direction: column;
   }
-  .single-timeline:nth-child(even) {
+  .single-timeline:nth-child(odd) {
     flex-direction: column;
   }
 
@@ -442,10 +442,10 @@ a {
     padding-right: 0px;
     padding-bottom: 10px;
   }
-  .single-timeline:nth-child(even) .timeline-text-title{
+  .single-timeline:nth-child(odd) .timeline-text-title{
     float: left;
   }
-  .single-timeline:nth-child(even) .timeline-text span {
+  .single-timeline:nth-child(odd) .timeline-text span {
     padding-left: 0;
   }
 
@@ -460,12 +460,12 @@ a {
     top: 32px;
   }
 
-  .single-timeline:nth-child(2n) .t-square {
+  .single-timeline:nth-child(2n+1) .t-square {
     top: 0;
 
   }
 
-  .single-timeline:nth-child(2n+1) .t-square {
+  .single-timeline:nth-child(2n) .t-square {
     top: 0;
   }
 }
